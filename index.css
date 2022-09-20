@@ -1,0 +1,125 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Mono';
+}
+
+.container {
+    display: center;
+    margin: 0 auto;
+    width: 100%;    
+}
+
+nav {
+    height: 90px;
+    width: 100%;
+    background-color: white;
+    margin-left: 20%;
+    padding-bottom: 20px;
+}
+
+.box {
+    height: 50px;
+    width: 12%;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Mono';
+    display: inline-block;
+    margin: 0 4%;
+    padding-top: 12px;
+}
+
+.plan {
+    background-color: #FF764E;
+}
+
+.learn {
+    background-color: #5ED3EB;
+}
+
+.involve {
+    background-color: #ffcd69
+}
+
+header {
+    display: inline-block;
+    color: black;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.header-img {
+    display: inline-block;
+    border-radius: 50%;
+    width: 32%;
+    height: 32%;
+}
+
+.header-text {
+    display: inline-block;
+    width: 20%;
+
+}
+
+.main {
+    width: 90%;
+    height: 150px;
+    background-color: #DDB9A3;
+    text-align: center;
+    color: white; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0 auto;
+}
+
+.details{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.fire-img {
+    height: 50%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Chelsea Market';
+    font-size: 36px;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
+
+footer img {
+}
+
+p {
+    font-family: 'Roboto Mono';
+}
